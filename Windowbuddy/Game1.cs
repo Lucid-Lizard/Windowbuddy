@@ -168,6 +168,10 @@ namespace Windowbuddy
                     }
                     else
                     {
+                        if(velocity.X > 2000)
+                        {
+                            velocity.X = 0;
+                        }
                     }
 
                     if (flinging)
